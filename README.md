@@ -39,8 +39,8 @@ measure q[2] -> c[0];
 
 
 ### OR = if control=A, swap(1,B)
-x q[1];
-cswap q[0], q[1], q[2];
+x q[1];  
+cswap q[0], q[1], q[2];  
 measure q[2] -> c[0];  
 
 ### NOT = if control=1, swap(A, B)
